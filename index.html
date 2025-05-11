@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>母亲节快乐</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="snow-container"></div>
+    <div class="audio-controls">
+        <audio id="bgMusic" loop>
+            <source src="./四季予你.mp3" type="audio/mpeg">
+        </audio>
+        <button id="playPauseBtn" class="audio-btn">播放音乐</button>
+        <button id="muteBtn" class="audio-btn">静音</button>
+    </div>
+    <div class="container">
+        <div class="flowers"></div>
+        <div class="content">
+            <h1 class="title">母亲节快乐</h1>
+            <div class="message">
+                <p class="blessing">亲爱的妈妈：</p>
+                <p class="blessing">感谢您一直以来的付出与关爱</p>
+                <p class="blessing">愿您永远健康快乐</p>
+                <p class="blessing">我爱您！</p>
+            </div>
+            <div class="interactive-section">
+                <button id="heartButton" class="heart-button">点击送爱心</button>
+                <div id="heartContainer"></div>
+            </div>
+            <div class="photo-gallery">
+                <div class="photo-frame">
+                    <img src="./hua.jpg" alt="母亲节图片" class="photo">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
